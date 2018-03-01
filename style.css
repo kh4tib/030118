@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+}
+.main-content {
+    width: 24rem;
+    height: 8rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 -2px 12px rgba(0,0,0,0.22);
+}
+
+.main-content-border {
+    position: absolute;
+    width: 24rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid #7144c5;
+}
+
+.one {
+    transform: scale(1.1);
+    opacity: .5;
+}
+
+.two {
+    transform: scale(1.2);
+    opacity: .4;
+}
+.three {
+    transform: scale(1.3);
+    opacity: .3;
+}
+.four {
+    transform: scale(1.4);
+    opacity: .2;
+}
+.five {
+    transform: scale(1.5);
+    opacity: .1;
+}
+
+.main-content-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #7144c5 ;
+}
+.main-content-description {
+    color: #fff;
+    padding: 2rem;
+    font-size: 14px;
+}
+
+
+.main-button {
+    height: 100%;
+    width: 14rem;
+    z-index: 5;
+}
+            
+
+.main-button-accept,
+.main-button-decline {
+        height: 50%;
+        width: 100%;
+        background: none;
+        outline: none;
+        border: none;
+        color: #fff;
+        box-shadow: 0 0px 0px rgba(0,0,0,0.30);
+        transition: 300ms ease-in-out;
+        font-size: 12px;
+        text-transform: uppercase;
+        z-index: 5;
+}
+            
+.main-button-decline {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom-right-radius: 10px; 
+    color: #6de6a4;
+}
+
+.main-button-decline:hover {
+    background: #6de6a4;
+    color: #fff;
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.30);
+    border-bottom-right-radius: 10px;
+} 
+
+.main-button-accept {
+    border-left: 1px solid #000;
+    border-top-right-radius: 10px; 
+    color: #7144c5 ;
+}
+
+.main-button-accept:hover {
+    background: #7144c5;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    border-top-right-radius: 10px;
+} 
